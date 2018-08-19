@@ -12,9 +12,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // PASTE CODE YOU WANT TO TEST HERE
 
-        display1("This is Box 1.");
-        display2("And this is Box 2.");
-        display3("And look! Box 3!");
+        int day1 = 15;
+        int day2 = 22;
+        int day3 = 18;
+        display((day1 + day2 + day3) / 3);
     }
 
     /**
