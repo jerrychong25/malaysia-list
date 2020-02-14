@@ -1,0 +1,25 @@
+{
+  "name": "malaysia-list",
+  "version": "0.0.1",
+  "description": "This package will display all lists for Malaysia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerrychong25/malaysia-list.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "malaysia",
+    "list"
+  ],
+  "author": "Jerry Chong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jerrychong25/malaysia-list/issues"
+  },
+  "homepage": "https://github.com/jerrychong25/malaysia-list#readme"
+}
