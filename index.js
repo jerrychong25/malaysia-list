@@ -46,3 +46,28 @@ module.exports.getStates = (language) => {
 
     return statesList
 }
+
+module.exports.getFederalTerritories = (language) => {
+
+    let federalTerritoriesList
+
+    if (language === 'en' | language === 'ms') {
+        federalTerritoriesList = {
+            federal_territories: [
+                'Kuala Lumpur',
+                'Labuan',
+                'Putrajaya'
+            ]
+        }
+    } else if (language === 'zh') {
+        federalTerritoriesList = {
+            federal_territories: [
+                '吉隆坡',
+                '纳闽',
+                '布城'
+            ]
+        }
+    }
+
+    return federalTerritoriesList
+}
