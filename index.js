@@ -1,12 +1,14 @@
-module.exports = () => {
-    return `Installation success for malaysia-list library!`;
+const global = require('./helpers/global')
+
+module.exports.init = (defaultLanguage) => {
+    global.setDefaultLanguage(defaultLanguage);
 }
 
-module.exports.getStates = (language) => {
+module.exports.getStates = () => {
 
     let statesList
 
-    if (language === 'en' | language === 'ms') {
+    if (global.getDefaultLanguage() === 'en' | global.getDefaultLanguage() === 'ms') {
         statesList = {
             states: [
                 'Johor Darul Ta\'zim',
@@ -24,7 +26,7 @@ module.exports.getStates = (language) => {
                 'Terengganu Darul Iman'
             ]
         }
-    } else if (language === 'zh') {
+    } else if (global.getDefaultLanguage() === 'zh') {
         statesList = {
             states: [
                 '柔佛',
@@ -47,11 +49,11 @@ module.exports.getStates = (language) => {
     return statesList
 }
 
-module.exports.getFederalTerritories = (language) => {
+module.exports.getFederalTerritories = () => {
 
     let federalTerritoriesList
 
-    if (language === 'en' | language === 'ms') {
+    if (global.getDefaultLanguage() === 'en' | global.getDefaultLanguage() === 'ms') {
         federalTerritoriesList = {
             federal_territories: [
                 'Kuala Lumpur',
@@ -59,7 +61,7 @@ module.exports.getFederalTerritories = (language) => {
                 'Putrajaya'
             ]
         }
-    } else if (language === 'zh') {
+    } else if (global.getDefaultLanguage() === 'zh') {
         federalTerritoriesList = {
             federal_territories: [
                 '吉隆坡',
