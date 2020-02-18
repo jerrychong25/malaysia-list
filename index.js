@@ -1,14 +1,14 @@
 const global = require('./helpers/global')
+const { LANGUAGES } = require('./helpers/constants')
 
 module.exports.init = (defaultLanguage) => {
     global.setDefaultLanguage(defaultLanguage);
 }
 
 module.exports.getStates = () => {
-
     let statesList
 
-    if (global.getDefaultLanguage() === 'en' | global.getDefaultLanguage() === 'ms') {
+    if (global.getDefaultLanguage() === LANGUAGES.ENGLISH | global.getDefaultLanguage() === LANGUAGES.MALAY) {
         statesList = {
             states: [
                 'Johor Darul Ta\'zim',
@@ -26,7 +26,7 @@ module.exports.getStates = () => {
                 'Terengganu Darul Iman'
             ]
         }
-    } else if (global.getDefaultLanguage() === 'zh') {
+    } else if (global.getDefaultLanguage() === LANGUAGES.CHINESE) {
         statesList = {
             states: [
                 '柔佛',
@@ -53,7 +53,7 @@ module.exports.getFederalTerritories = () => {
 
     let federalTerritoriesList
 
-    if (global.getDefaultLanguage() === 'en' | global.getDefaultLanguage() === 'ms') {
+    if (global.getDefaultLanguage() === LANGUAGES.ENGLISH | global.getDefaultLanguage() === LANGUAGES.MALAY) {
         federalTerritoriesList = {
             federal_territories: [
                 'Kuala Lumpur',
@@ -61,7 +61,7 @@ module.exports.getFederalTerritories = () => {
                 'Putrajaya'
             ]
         }
-    } else if (global.getDefaultLanguage() === 'zh') {
+    } else if (global.getDefaultLanguage() === LANGUAGES.CHINESE) {
         federalTerritoriesList = {
             federal_territories: [
                 '吉隆坡',
