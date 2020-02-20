@@ -29,6 +29,31 @@ module.exports = () => {
                 'MARA University of Technology'
             ]
         }
+    } else if (global.getDefaultLanguage() === LANGUAGES.MALAY) {
+        publicUniversitiesList = {
+            public_universities: [
+                'Universiti Malaya',
+                'Universiti Kebangsaan Malaysia',
+                'Universiti Putra Malaysia',
+                'Universiti Sains Malaysia',
+                'Universiti Teknologi Malaysia',
+                'Universiti Utara Malaysia',
+                'Universiti Islam Antarabangsa Malaysia',
+                'Universiti Malaysia Pahang',
+                'Universiti Malaysia Perlis',
+                'Universiti Malaysia Sabah',
+                'Universiti Malaysia Sarawak',
+                'Universiti Malaysia Terengganu',
+                'Universiti Pendidikan Sultan Idris',
+                'Universiti Malaysia Kelantan',
+                'Universiti Pertahanan Nasional Malaysia',
+                'Universiti Sains Islam Malaysia',
+                'Universiti Sultan Zainal Abidin',
+                'Universiti Teknikal Malaysia Melaka',
+                'Universiti Tun Hussein Onn Malaysia',
+                'Universiti Teknologi MARA'
+            ]
+        }
     }
 
     return publicUniversitiesList
