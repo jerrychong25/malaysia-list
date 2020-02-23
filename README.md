@@ -9,8 +9,8 @@ This npm package displays all lists related to Malaysia.
 ### init() - Set default language
 
 #### Language Options
-English - en
-Malay - ms
+English - en<br>
+Malay - ms<br>
 Chinese - zh
 
 #### Code Example
