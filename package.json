@@ -1,6 +1,6 @@
 {
   "name": "malaysia-list",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "This package will display all lists related to Malaysia",
   "main": "index.js",
   "scripts": {
