@@ -24,7 +24,6 @@ module.exports = () => {
           'Terengganu Darul Iman'
         ]
       }
-
       break
     case LANGUAGES.CHINESE:
       statesList = {
