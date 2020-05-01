@@ -1,5 +1,10 @@
 # Malaysia List
 
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://www.npmjs.com/package/malaysia-list)
+[![GitHub release](https://img.shields.io/github/release/jerrychong25/malaysia-list.svg)](https://gitHub.com/jerrychong25/malaysia-list/releases/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/jerrychong25/malaysia-list/graphs/commit-activity)
+[![HitCount](http://hits.dwyl.com/jerrychong25/malaysialist.svg)](http://hits.dwyl.com/jerrychong25/malaysialist)
+
 ## Getting Started
 
 This npm package displays all lists related to Malaysia.
