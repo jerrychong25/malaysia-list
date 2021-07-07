@@ -3,7 +3,7 @@
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://www.npmjs.com/package/malaysia-list)
 [![GitHub release](https://img.shields.io/github/release/jerrychong25/malaysia-list.svg)](https://gitHub.com/jerrychong25/malaysia-list/releases/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/jerrychong25/malaysia-list/graphs/commit-activity)
-[![HitCount](http://hits.dwyl.com/jerrychong25/malaysialist.svg)](http://hits.dwyl.com/jerrychong25/malaysialist)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjerrychong25%2Fmalaysia-list&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ## Getting Started
 
