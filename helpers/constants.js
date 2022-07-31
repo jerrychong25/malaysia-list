@@ -2,6 +2,7 @@ module.exports = {
   LANGUAGES: {
     ENGLISH: 'en',
     MALAY: 'ms',
-    CHINESE: 'zh'
+    CHINESE: 'zh',
+    TAMIL: 'ta'
   }
 }
