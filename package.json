@@ -24,6 +24,6 @@
   "homepage": "https://github.com/jerrychong25/malaysia-list#readme",
   "dependencies": {},
   "devDependencies": {
-    "standard": "^14.3.1"
+    "standard": "^17.1.2"
   }
 }
